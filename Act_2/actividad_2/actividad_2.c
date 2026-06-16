@@ -5,17 +5,24 @@
  * @brief Programa principal
 */
 int main(void) {
-    int boton1;
+  int boton1;
+  int boton2;
+  int boton3;
   // Inicializo el USB
   // Demora para esperar la conexion
   sleep_ms(1000); 
-  gpio_init(10);
-  gpio_set_dir(10,GPIO_IN);
+  gpio_init(6);
+  gpio_init(7); 
   gpio_init(8);
+  gpio_init(20);
+  gpio_init(21);
+  gpio_init(22);
+  gpio_set_dir(6,GPIO_OUT);
+  gpio_set_dir(7,GPIO_OUT);
   gpio_set_dir(8,GPIO_OUT);
- 
-  
-  
+  gpio_set_dir(20,GPIO_IN);
+  gpio_set_dir(21,GPIO_IN);
+  gpio_set_dir(22,GPIO_IN);
 
   // Inicializacion de GPIO con gpio_init()
   /* Habilito el GPIO25 (LED)
@@ -26,16 +33,40 @@ int main(void) {
   Configuracion de entrada/salida con gpio_set_dir()
   */
   while (true) {
-    gpio_put(8,1);
+    gpio_put(20,1);
     sleep_ms(500);
-    gpio_put(8,0);
+    gpio_put(20,0);
     sleep_ms(500);
     boton1=gpio_get(10);
     if(boton1==1){
-        gpio_put(8,1);
+        gpio_put(20,1);
         }
-    if(boton1==0);
-    gpio_put(8,0);
+    if(boton1==0){
+        gpio_put(20,0);
+
+    gpio_put(21,1);
+    sleep_ms(500);
+    gpio_put(21,0);
+    sleep_ms(500);
+    boton2=gpio_get(10);
+    if(boton2==1){
+        gpio_put(21,1);
+        }
+    if(boton2==0){
+        gpio_put(21,0);
+
+    gpio_put(22,1);
+    sleep_ms(500);
+    gpio_put(22,0);
+    sleep_ms(500);
+    boton3=gpio_get(10);
+    if(boton3==1){
+        gpio_put(22,1);
+        }
+    if(boton3==0){
+        gpio_put(22,0);
+    }
+    
 
 
     /* Prendo LED
@@ -47,4 +78,6 @@ int main(void) {
  // Resolver logica para GPIO22 -> GPIO8
   }
   return 0;   
-}
+           }
+          }
+        }
