@@ -43,11 +43,11 @@ Al analizar el chasis y todo el kit, nos dimos cuenta que los componentes que es
 
 ### Pruebas realizadas:
 
-
+Probamos el codigo, con el kit ya armado y soldado
 
 ### Resultados obtenidos:
 
-
+Las dos ruedas giraban a la perfeccion
 
 ### Fotografías, diagramas o evidencias:
 
