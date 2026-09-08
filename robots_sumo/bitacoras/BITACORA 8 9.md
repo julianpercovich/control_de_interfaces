@@ -56,8 +56,9 @@ Adjunto afuera de la bitacora
 
 ### Tareas pendientes:
 
-Nos falta configurar el PWM
-
+Nos falta configurar el PWM y modificar el codigo para que funcione tanto con el puente
+ H y con los 2 motores
+ 
 ### APORTES INDIVIDUALES
 
 #### Integrante: Sofía Torrado Varela
