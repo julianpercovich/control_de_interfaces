@@ -136,7 +136,7 @@ return -1;
 cyw43_arch_enable_sta_mode();
 printf("Connecting to Wi-Fi...\n");
 
-if (cyw43_arch_wifi_connect_timeout_ms("Nombre de wifi", "contraseña", CYW43_AUTH_WPA2_AES_PSK, 30000)) {
+if (cyw43_arch_wifi_connect_timeout_ms("Cooperadora Alumnos", NULL , CYW43_AUTH_WPA2_AES_PSK, 30000)) {
 printf("failed to connect.\n");
 return 1;
 } else {
@@ -158,6 +158,9 @@ printf("Servidor web iniciado en el puerto 80.\n");
 // Bucle principal seguro
 while (true) {
 cyw43_arch_poll(); // Mantiene vivo el stack de red
+printf("Connected.\n");
+uint8_t *ip_address = (uint8_t*)&(cyw43_state.netif[0].ip_addr.addr);
+printf("IP address %d.%d.%d.%d\n", ip_address[0], ip_address[1], ip_address[2], ip_address[3]);
 
 // Procesamos los comandos fuera de las interrupciones de red usando ifs
 if (current_cmd != CMD_NONE) {
@@ -200,4 +203,7 @@ sleep_ms(10);
 
 cyw43_arch_deinit();
 return 0;
+
+
 }
+
