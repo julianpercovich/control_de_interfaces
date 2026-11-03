@@ -1,73 +1,75 @@
-BITÁCORA DE PROYECTO – ROBOT SUMO 
+# BITÁCORA DE PROYECTO – ROBOT SUMO 
 
-Equipo: Los Varela
+### Equipo: Los Varela
 Nombre del Robot: Demetrio
 Capitana: Sofía Torrado Varela
 Subcapitán: Julián Percovich Giuliani
 
-Integrantes:
+### Integrantes:
 
 1. Sofía Torrado Varela
 2. Julián Percovich Giuliani
 3. Thiago Alejo Zangaro
 4. Julieta Villaverde
 
-REGISTRO DE ACTIVIDADES
+## REGISTRO DE ACTIVIDADES
 
-Fecha: 03/11/2026
+### Fecha: 03/11/2026
 
-Integrantes presentes: Sofía Torrado Varela, Julián Percovich Giuliani, Thiago
+### Integrantes presentes: 
+Sofía Torrado Varela, Julián Percovich Giuliani, Thiago
 Alejo Zangaro y Julieta Villaverde
 
-Objetivos de la jornada:
+### Objetivos de la jornada:
 
 Probar programa
 Armar robot
 
 
 
-Actividades realizadas:
+### Actividades realizadas:
 
 Programamos el puente H, junto con una prueba.  El modulo WIFI se termino con exito, con una prueba que salio bien al primer intento.
 
-Problemas encontrados:
+### Problemas encontrados:
 
 El codigo proporcionado para el MODULO WIFI tenia un pequeño error
 
-Soluciones implementadas o propuestas:
+### Soluciones implementadas o propuestas:
 
 Arreglamos el codigo y el programa funciono con exito
 
-Pruebas realizadas:
+### Pruebas realizadas:
 
 Probamos el MODULO WIFI 
 
-Resultados obtenidos:
+### Resultados obtenidos:
 
 EL robot funciono correctamente sin fallas
 
-Fotografías, diagramas o evidencias:
+### Fotografías, diagramas o evidencias:
 
 
 
-Tareas pendientes:
+### Tareas pendientes:
 
-Ninguna
+Buscar, imprimir y armar una carcasa mas agresiva (opcional)
 
-APORTES INDIVIDUALES
+### APORTES INDIVIDUALES
 
-Integrante: Sofía Torrado Varela
+#### Integrante: Sofía Torrado Varela
 Tarea realizada: Se encargo de terminar de armar el robot
 
-Integrante: Julián Percovich Giuliani
+#### Integrante: Julián Percovich Giuliani
 Tarea realizada:  Organizo y distribuyo las tareas del equipo, realizo la bitacora y programo el modulo WIFI.
 
-Integrante: Thiago Alejo Zangaro
+#### Integrante: Thiago Alejo Zangaro
 Tarea realizada: Programo el modulo WIFI y realizo las conexiones de la rasperry 
 
-Integrante: Julieta Villaverde
+#### Integrante: Julieta Villaverde
 Tarea realizada: Se encargo de trabajar con el kit y soldo el kit
 
-Material previsto: Chasis de un kit de auto de 3 ruedas y mini protoboard.
+#### Material previsto: 
+Chasis de un kit de auto de 3 ruedas y mini protoboard.
 
-Observación: 
+
